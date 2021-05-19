@@ -1,34 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img src="./public/readme/banner.jpg" width="100%" alt="Banner" />
+</p>
 
-## Getting Started
+## About
 
-First, run the development server:
+This is a ready [Next.js](https://nextjs.org) code structure with [TypeScript](https://www.typescriptlang.org), [ESLint](https://eslint.org), [Chakra UI](https://chakra-ui.com) and [Prettier](https://prettier.io) to start new projects.
+
+## How to use
+
+You just clone this repo or click in **Use this template** button to create a new project from this template.
+
+### Pre-requisites
+
+Before you begin, you will need to have the following tools installed on your machine:
+
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/)
+
+In addition, it is good to have an editor to work with the code like [Visual Studio Code](https://code.visualstudio.com/).
+
+#### Running the application
 
 ```bash
-npm run dev
-# or
-yarn dev
+
+# Clone your repository create from this template
+$ git clone git@github.com:<username>/<project-name> <project-folder>
+
+# Access the project folder in your terminal
+$ cd <project-folder>
+
+# Install the dependencies
+$ yarn
+
+# Run the application in development mode
+$ yarn dev
+
+# The application will open on the port: 3000 - go to http://localhost:3000
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## That's it. You done!
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<p align="center" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 0 auto 2rem auto;">
+  <img alt="Light mode" title="Light mode" src="./public/readme/screenshots-lightmode.jpg">
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+  <img alt="Dark mode" title="Dark mode" src="./public/readme/screenshots-darkmode.jpg">
+</p>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Tech Stack
 
-## Learn More
+The following tools were used in the construction of the project. Open the links to know more.
 
-To learn more about Next.js, take a look at the following resources:
+-   [React](https://reactjs.org)
+-   [Next.js](https://nextjs.org)
+-   [Chakra UI](https://chakra-ui.com)
+-   [Framer Motion](https://www.framer.com/motion)
+-   [TypeScript](https://www.typescriptlang.org)
+-   [ESLint](https://eslint.org)
+-   [Prettier](https://prettier.io)
+-   [React Icons](https://react-icons.github.io/react-icons)
+-   [EditorConfig](https://editorConfig.org)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Check *package.json* for more packages include.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
+<div align="center">
+ <img style="border-radius: 50%;" src="https://secure.gravatar.com/avatar/c7fbbc88f749edbc04bb4e0471634a1d?s=64" width="64px;" alt=""/>
+ <br>
+ <b>Carlos Eduardo</b><br><br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[![Badge](https://img.shields.io/badge/-GitHub-181717?logoColor=ffffff&color=181717&labelColor=181717&style=flat&logo=GitHub)](https://github.com/carlos3duardo)
+[![Badge](https://img.shields.io/badge/-LinkedIn-0077b5?logoColor=ffffff&color=0077b5&labelColor=0077b5&style=flat&logo=linkedin)](https://www.linkedin.com/in/cenarioweb)
+[![Badge](https://img.shields.io/badge/-Instagram-E4405F?style=flat&labelColor=E4405F&logoColor=ffffff&logo=instagram)](https://www.instagram.com/carloseduardo)
+[![Badge](https://img.shields.io/badge/-Twitter-1da1f2?style=flat&labelColor=1da1f2&logoColor=ffffff&logo=twitter)](https://www.twitter.com/carlos3duardo)
+[![Badge](https://img.shields.io/badge/-E--mail-d14836?style=flat&labelColor=d14836&logoColor=ffffff&logo=gmail)](mailto:carloseduardo@cenarioweb.com.br)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+</div>
+
+## License
+
+This project is under the license [MIT](./LICENSE).
+

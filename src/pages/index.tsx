@@ -94,8 +94,9 @@ export default function Home(): JSX.Element {
       </Head>
       <Flex
         direction="column"
-        w="100vw"
-        h="100vh"
+        width="100%"
+        height="100%"
+        minHeight="100vh"
         bgColor={colorMode === 'light' ? 'gray.50' : 'gray.700'}
         position="relative"
       >
@@ -144,7 +145,7 @@ export default function Home(): JSX.Element {
                 marginTop="0.5rem"
                 textAlign={{ base: 'center', md: 'left' }}
               >
-                With Typescript, ESLint,Prettier, Chakra UI and React Icons.
+                With Typescript, ESLint, Prettier, Chakra UI and React Icons.
               </Heading>
               <Text
                 fontSize="xl"
@@ -163,7 +164,7 @@ export default function Home(): JSX.Element {
 
             <Box>
               <Image
-                src="/man-with-laptop.svg"
+                src="/img/man-with-laptop.svg"
                 alt="Man with laptop"
                 width={209}
                 height={160}
@@ -221,7 +222,9 @@ export default function Home(): JSX.Element {
             <Box ml="0.5rem" h={4}>
               <Image
                 src={
-                  colorMode === 'light' ? '/vercel.svg' : '/vercel-darkmode.svg'
+                  colorMode === 'light'
+                    ? '/img/vercel.svg'
+                    : '/img/vercel-darkmode.svg'
                 }
                 alt="Vercel Logo"
                 width={72}
