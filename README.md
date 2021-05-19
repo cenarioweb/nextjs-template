@@ -6,11 +6,7 @@
 
 This is a ready [Next.js](https://nextjs.org) code structure with [TypeScript](https://www.typescriptlang.org), [ESLint](https://eslint.org), [Chakra UI](https://chakra-ui.com) and [Prettier](https://prettier.io) to start new projects.
 
-## How to use
-
-You just clone this repo or click in **Use this template** button to create a new project from this template.
-
-### Pre-requisites
+## Pre-requisites
 
 Before you begin, you will need to have the following tools installed on your machine:
 
@@ -20,7 +16,21 @@ Before you begin, you will need to have the following tools installed on your ma
 
 In addition, it is good to have an editor to work with the code like [Visual Studio Code](https://code.visualstudio.com/).
 
-#### Running the application
+## How to use
+
+You just clone this repo or click in **Use this template** button to create a new project from this template.
+
+<p align="center">
+  <img src="./public/readme/git-use-this-template.png" width="100%" alt="Use this template" />
+</p>
+
+Input the name of your awesome project and click in **Create repository com template**.
+
+<p align="center">
+  <img src="./public/readme/git-create-repository.png" width="100%" alt="Use this template" />
+</p>
+
+## Running the application
 
 ```bash
 
@@ -42,11 +52,9 @@ $ yarn dev
 
 ## That's it. You done!
 
-<p align="center" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 0 auto 2rem auto;">
-  <img alt="Light mode" title="Light mode" src="./public/readme/screenshots-lightmode.jpg">
-
-  <img alt="Dark mode" title="Dark mode" src="./public/readme/screenshots-darkmode.jpg">
-</p>
+| Light mode | Dark Mode |
+|------------|-----------|
+|<img alt="Light mode" title="Light mode" src="./public/readme/screenshots-lightmode.jpg">|<img alt="Dark mode" title="Dark mode" src="./public/readme/screenshots-darkmode.jpg">|
 
 ## Tech Stack
 
