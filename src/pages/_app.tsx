@@ -1,12 +1,12 @@
 import { AppProps } from 'next/app';
 import { ChakraProvider } from '@chakra-ui/react';
 
-import '../../styles/globals.css';
+import theme from '../styles/themes/default';
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
-    <ChakraProvider>
-      <Component {...pageProps} />;
+    <ChakraProvider theme={theme}>
+      <Component {...pageProps} />
     </ChakraProvider>
   );
 }
