@@ -6,6 +6,8 @@
 
 This is a ready [Next.js](https://nextjs.org) code structure with [TypeScript](https://www.typescriptlang.org), [ESLint](https://eslint.org), [Chakra UI](https://chakra-ui.com) and [Prettier](https://prettier.io) to start new projects.
 
+Online demo: [https://nextjs-template-cenarioweb.vercel.app/](https://nextjs-template-cenarioweb.vercel.app/)
+
 ## Pre-requisites
 
 Before you begin, you will need to have the following tools installed on your machine:
