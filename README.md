@@ -86,6 +86,7 @@ Check *package.json* for more packages include.
 [![Badge](https://img.shields.io/badge/-Instagram-E4405F?style=flat&labelColor=E4405F&logoColor=ffffff&logo=instagram)](https://www.instagram.com/carloseduardo)
 [![Badge](https://img.shields.io/badge/-Twitter-1da1f2?style=flat&labelColor=1da1f2&logoColor=ffffff&logo=twitter)](https://www.twitter.com/carlos3duardo)
 [![Badge](https://img.shields.io/badge/-E--mail-d14836?style=flat&labelColor=d14836&logoColor=ffffff&logo=gmail)](mailto:carloseduardo@cenarioweb.com.br)
+[![Badge](https://img.shields.io/badge/-Telegram-fcfcfc?style=flat&labelColor=fcfcfc&logoColor=08567b&logo=telegram)](https://t.me/carloseduardo_dev)
 
 </div>
 
